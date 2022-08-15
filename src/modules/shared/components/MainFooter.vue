@@ -6,26 +6,26 @@ const items = ref([
     {
         name: 'Inicio',
         route: { name: 'home' },
-        iconDefault: "./public/icons/home.png",
-        iconActive: "./public/icons/home-active.png"
+        iconDefault: "./icons/home.png",
+        iconActive: "./icons/home-active.png"
     },
     {
         name: 'Sobre mí',
         route: { name: 'about' },
-        iconDefault: "./public/icons/about.png",
-        iconActive: "../public/icons/about-active.png",
+        iconDefault: "./icons/about.png",
+        iconActive: "./icons/about-active.png",
     },
     {
         name: 'Trabajos',
         route: { name: 'works' },
-        iconDefault: "./public/icons/works.png",
-        iconActive: "./public/icons/works-active.png",
+        iconDefault: "./icons/works.png",
+        iconActive: "./icons/works-active.png",
     },
     {
         name: 'Contacto',
         route: { name: 'contact' },
-        iconDefault: "./public/icons/contact.png",
-        iconActive: "./public/icons/contact-active.png",
+        iconDefault: "./icons/contact.png",
+        iconActive: "./icons/contact-active.png",
     },
 ])
     

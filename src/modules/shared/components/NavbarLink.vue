@@ -1,15 +1,10 @@
 <script setup>
-import { ref, watch, onMounted } from 'vue';
-
-
 defineProps({
     itemLink: {
         type: Object,
         required: true,
-    },
-
+    }
 });
-
 </script>
 
 
