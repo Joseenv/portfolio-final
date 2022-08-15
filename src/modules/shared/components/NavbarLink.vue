@@ -1,0 +1,54 @@
+<script setup>
+import { ref, watch, onMounted } from 'vue';
+
+
+defineProps({
+    itemLink: {
+        type: Object,
+        required: true,
+    },
+
+});
+
+</script>
+
+
+<template>
+    <router-link 
+        class="menu__item"
+        :to="itemLink.route"
+        v-slot="{isActive }"
+    >
+        <img :src="isActive ? itemLink.iconActive : itemLink.iconDefault" 
+             :alt="itemLink.name" 
+             class="link__img"
+        >
+        <span v-if="isActive" 
+            class="link__name"
+        > 
+            {{ itemLink.name }} 
+        </span>
+    </router-link>  
+</template>
+
+<style scoped>
+.menu__item {
+    padding: .4rem 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    text-decoration: none;
+}
+.link__name {
+    color: #fff;
+}
+.router-link-active {
+    background-color: var(--color-blue);
+    border-radius: 8px;
+}
+
+span {
+    font-size: 12px;
+    font-weight: 500;
+} 
+</style>
