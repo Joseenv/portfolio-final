@@ -34,6 +34,11 @@ defineProps({
     align-items: center;
     text-decoration: none;
 }
+.link__img {
+    width: 2.4rem;
+    height: 2.4rem;
+    object-fit: cover;
+}
 .link__name {
     color: #fff;
 }
@@ -43,7 +48,7 @@ defineProps({
 }
 
 span {
-    font-size: 12px;
+    font-size: 1.4rem;
     font-weight: 500;
 } 
 </style>
