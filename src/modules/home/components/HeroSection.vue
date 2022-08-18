@@ -16,11 +16,10 @@ import HeroDescription from './HeroDescription.vue';
 
 <style scoped>
 .home__container {
-    padding-top: 6rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: calc(100vh - 6rem);
+    height: 100vh;
 }
 .home__hero {
     display: flex;

@@ -42,7 +42,7 @@ defineProps({
     color: #fff;
 }
 .router-link-active {
-    background-color: var(--color-blue);
+    background-color: #424242;
     border-radius: 8px;
 }
 span {
