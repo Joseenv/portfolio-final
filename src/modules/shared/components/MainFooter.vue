@@ -3,8 +3,6 @@ import NavbarLink from './NavbarLink.vue';
 import { useNavbar } from '../../../composables/navbar.js';
 
 const { items } = useNavbar();
-
-
 </script>
 
 <template>
@@ -28,7 +26,7 @@ const { items } = useNavbar();
     width: 100%;
     height: 6rem;
     width: 100%;
-    bottom: 2.4rem;
+    bottom: 1.6rem;
     left: 0;
     padding: 0 2.4rem;
     display: flex;
@@ -46,6 +44,8 @@ const { items } = useNavbar();
     display: flex;
     justify-content: space-between;
     padding: 1.4rem 2.8rem;
+    width: 100%;
+    height: 100%;
 }
 .menu__item {
     list-style: none;

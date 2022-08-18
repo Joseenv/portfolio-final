@@ -7,7 +7,6 @@ defineProps({
 });
 </script>
 
-
 <template>
     <router-link 
         class="menu__item"
@@ -28,7 +27,7 @@ defineProps({
 
 <style scoped>
 .menu__item {
-    padding: .4rem 1rem;
+    padding: .6rem 1.2rem;
     display: flex;
     gap: 1rem;
     align-items: center;
@@ -46,7 +45,6 @@ defineProps({
     background-color: var(--color-blue);
     border-radius: 8px;
 }
-
 span {
     font-size: 1.4rem;
     font-weight: 500;

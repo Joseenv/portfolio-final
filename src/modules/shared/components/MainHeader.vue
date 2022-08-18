@@ -8,7 +8,7 @@
 <style scoped>
 .header {
     width: 100%;
-    height: 5.6rem;
+    height: 6rem;
     background-color: var(--color-background);
     position: fixed;
     left: 0;
