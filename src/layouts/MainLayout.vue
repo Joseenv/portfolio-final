@@ -1,6 +1,6 @@
 <script setup>
-import MainFooter from '../modules/shared/components/MainFooter.vue';
-import MainHeader from '../modules/shared/components/MainHeader.vue';
+import MainFooter from '../modules/navbar/components/MainFooter.vue';
+import MainHeader from '../modules/navbar/components/MainHeader.vue';
 </script>
 
 <template>

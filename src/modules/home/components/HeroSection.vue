@@ -40,10 +40,8 @@ import HeroDescription from './HeroDescription.vue';
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 2.8rem;
-    font-weight: 700;
+    font-weight: 800;
     text-align: center;
     margin-bottom: 1.6rem;
-
-    
 }
 </style>

@@ -22,20 +22,17 @@ const { items } = useNavbar();
 
 <style scoped>
 .footer {
+    background-color: var(--color-background);
+    bottom: 0;
+    height: 6rem;
+    left: 0;
+    padding: 0 1.6rem;
     position: fixed;
     width: 100%;
-    height: 6rem;
     width: 100%;
-    bottom: 1.6rem;
-    left: 0;
-    padding: 0 2.4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border-top: 1.5px solid var(--color-border);
 }
 .navbar {
-    background-color: var(--color-background-soft);
-    border-radius: 16px;
     height: 100%;
     width: 100%;
 }
@@ -43,7 +40,6 @@ const { items } = useNavbar();
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 1.4rem 2.8rem;
     width: 100%;
     height: 100%;
 }
