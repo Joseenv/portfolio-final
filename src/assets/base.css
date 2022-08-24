@@ -37,6 +37,7 @@
   --vt-c-blue: #647EFF;
   --vt-c-green: #00BD7E;
 
+  --vt-c-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.05);
 
   --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
   --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
@@ -68,6 +69,7 @@
 
   --gradient: var(--vt-c-gradient);
   
+  --shadow-main: var(--vt-c-shadow)
 }
 
 @media (prefers-color-scheme: dark) {

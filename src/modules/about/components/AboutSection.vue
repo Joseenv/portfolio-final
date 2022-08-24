@@ -3,6 +3,7 @@ import { defineAsyncComponent } from 'vue';
 
 const SectionItem = defineAsyncComponent(() => import('../../shared/components/SectionItem.vue'));
 const AboutItem = defineAsyncComponent(() => import('./AboutItem.vue'));
+const WayItem = defineAsyncComponent(() => import('./WayItem.vue'));
 </script>
 
 
@@ -14,14 +15,19 @@ const AboutItem = defineAsyncComponent(() => import('./AboutItem.vue'));
                 <AboutItem/>
             </template>
         </SectionItem>
-        
+        <SectionItem>
+            <template #title>Mi camino</template>
+            <template #content>
+                <wayItem/>
+            </template>
+        </SectionItem>
     </section>
 </template>
 
 <style scoped>
 .about__container{
     width: 100%;
-    padding-top: 6rem;
+    padding: 6rem 1.6rem;
     display: flex;
     flex-direction: column;
     align-items: center;

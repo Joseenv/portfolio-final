@@ -3,10 +3,10 @@
 </script>
 
 <template>
-    <p class="hero__description">
+    <span class="hero__description">
       Y soy
       <VueWriter :array="['Desarrollador Frontend', 'Diseñador UX/UI']"/>
-    </p>
+    </span>
 </template>
 
 <style scoped>

@@ -13,13 +13,12 @@
     flex-direction: column;
     max-width: 1440px;
     margin: 3.2rem auto 5.6rem auto;
-    padding: 0 1.6rem;
     gap: 3.2rem;
+    width: 100%;
 }
 .section__title {
     color: var(--color-heading);
     font-weight: 700;
     font-size: 2rem;
-    /* background-color: red; */
 }
 </style>

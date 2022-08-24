@@ -1,5 +1,5 @@
 <template>
-    <article class="about__container">
+    <article class="about__item__container">
         <img src="@/assets/img/about-img.webp" alt="" class="about__img">
         <p class="about__description">
             ¡Encantado! Soy Jose Navarro, un apasionado con el mundo de la creatividad, el Desarrollo Frontend y el Diseño UX/UI. Me gustan las experiencias retadoras y estar en constante aprendizaje.
@@ -8,11 +8,11 @@
 </template>
 
 <style scoped>
-.about__container {
+.about__item__container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center ;
     gap: 2.4rem;
-    padding: 0;
 }
 .about__img {
     width: 10.8rem;

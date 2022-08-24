@@ -12,13 +12,13 @@
 </template>
 <style scoped>
 .header {
-    width: 100%;
-    height: 6rem;
     background-color: var(--color-background);
-    position: fixed;
+    height: 6rem;
     left: 0;
+    position: fixed;
     top: 0;
-    /* border-bottom: 1.5px solid var(--color-border); */
+    width: 100%;
+    opacity: 0.998;
 }
 .navbar {
     max-width: 1440px;
@@ -27,6 +27,9 @@
     align-items: center;
     padding: 1.6rem;
     justify-content: space-between;
+    margin: 0 auto;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
 } 
 .navbar__logo {
     font-size: 2rem;
