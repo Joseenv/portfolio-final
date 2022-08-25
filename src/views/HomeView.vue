@@ -1,7 +1,7 @@
 <script setup>
-import HeroSection from '../modules/home/components/HeroSection.vue';
+import HeroSectionContainer from '../modules/home/components/HeroSectionContainer.vue';
 </script>
 
 <template>
-  <HeroSection />
+  <HeroSectionContainer />
 </template>

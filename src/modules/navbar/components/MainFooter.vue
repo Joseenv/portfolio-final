@@ -1,12 +1,33 @@
 <script setup>
 import NavbarLink from './NavbarLink.vue';
-import { useNavbar } from '../../../composables/navbar.js';
-
+import { useNavbar } from '../composables/navbar.js';
+// import { ref, onMounted } from 'vue';
 const { items } = useNavbar();
+
+// const footer = ref(null)
+// const scroll = ref(null)
+// const pixels = ref(null)
+// const displayFooter = () => {
+//     scroll.value = window.scrollY;
+//     pixels.value = window.screenY;
+//     console.log('Scroll Y' + scroll.value);
+//     console.log('Screen Y' + pixels.value);
+    // if (scroll.value > 0) {
+    //     footer.value.style.display = 'none'
+    //     console.log('ocultando footer');
+    // } else {
+    //     footer.value.style.display = 'block'
+    //     console.log('mostrando footer');
+    // }
+// }
+
+// onMounted(() => {
+//   window.addEventListener('scroll', displayFooter)
+// })
 </script>
 
 <template>
-    <footer class="footer">
+    <footer class="footer" ref="footer">
         <nav class="navbar">
             <ul class="navbar__menu">
                 <li class="menu__item"
@@ -31,6 +52,7 @@ const { items } = useNavbar();
     width: 100%;
     width: 100%;
     border-top: 1.5px solid var(--color-border);
+    display: block;
 }
 .navbar {
     height: 100%;

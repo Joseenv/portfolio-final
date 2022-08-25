@@ -15,13 +15,13 @@
     gap: 2.4rem;
 }
 .about__img {
-    width: 10.8rem;
-    height: 10.8rem;
+    width: 12.4rem;
+    height: 12.4rem;
     border-radius: 50%;
 }
 .about__description {
     color: var(--color-text);
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     text-align: justify;
     line-height: 18px;
 }

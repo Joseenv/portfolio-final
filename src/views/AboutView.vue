@@ -1,11 +1,11 @@
 <script setup>
 import { defineAsyncComponent } from 'vue';
 
-const AboutSection = defineAsyncComponent(() => import('../modules/about/components/AboutSection.vue'));
+const AboutSectionContainer = defineAsyncComponent(() => import('../modules/about/components/AboutSectionContainer.vue'));
 </script>
 
 
 <template>
-  <AboutSection/>
+  <AboutSectionContainer/>
 </template>
 

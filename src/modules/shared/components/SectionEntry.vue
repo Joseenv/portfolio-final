@@ -12,9 +12,10 @@
     display: flex;
     flex-direction: column;
     max-width: 1440px;
-    margin: 3.2rem auto 5.6rem auto;
+    margin: 3.2rem auto 4.8rem auto;
     gap: 3.2rem;
     width: 100%;
+    padding: 0 1.6rem;
 }
 .section__title {
     color: var(--color-heading);

@@ -19,6 +19,7 @@
     top: 0;
     width: 100%;
     opacity: 0.998;
+    outline: 1px solid var(--color-border);
 }
 .navbar {
     max-width: 1440px;
