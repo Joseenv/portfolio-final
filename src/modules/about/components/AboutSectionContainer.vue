@@ -23,7 +23,7 @@ const SkillsItem = defineAsyncComponent(() => import('./SkillsItem.vue'));
             </template>
         </SectionEntry>
         <SectionEntry>
-            <template #title>Mis skills</template>
+            <template #title>Mis habilidades</template>
             <template #content>
                 <SkillsItem/>
             </template>
