@@ -86,7 +86,7 @@
     --color-border-hover: var(--vt-c-divider-dark-1);
 
     --color-heading: var(--vt-c-text-dark-1);
-    --color-subtitle: var(--vt-c-white-mute);
+    --color-subtitle: rgba(255, 255, 255, 0.87);
     --color-text: var(--vt-c-text-dark-2);
 
     --gradient: var(--vt-c-gradient);
