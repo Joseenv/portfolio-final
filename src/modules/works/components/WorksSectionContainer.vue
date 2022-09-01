@@ -2,14 +2,14 @@
     import { defineAsyncComponent } from 'vue';
     
     const SectionEntry = defineAsyncComponent(() => import('../../shared/components/SectionEntry.vue'));
-    const ContactItem = defineAsyncComponent(() => import('./ContactItem.vue'));
+    const WorksItem = defineAsyncComponent(() => import('./WorksItem.vue'));
 </script>
 
 <template>
      <section class="contact__container">
         <SectionEntry>
             <template #content>
-                <ContactItem/>
+                <WorksItem/>
             </template>
         </SectionEntry>
     </section>

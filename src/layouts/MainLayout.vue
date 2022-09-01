@@ -5,7 +5,7 @@ import MainHeader from '../modules/navbar/components/MainHeader.vue';
 
 <template>
   <MainHeader class="header"/>
-  <router-view v-slot="{ Component }">
+  <router-view v-slot="{ Component }" >
     <transition name="fade" mode="out-in">
       <component :is="Component" />
     </transition>
