@@ -20,6 +20,7 @@
     width: 100%;
     opacity: 0.998;
     outline: 1px solid var(--color-border);
+    z-index: 1;
 }
 .navbar {
     max-width: 1440px;

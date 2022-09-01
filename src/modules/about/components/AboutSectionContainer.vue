@@ -5,13 +5,13 @@ const SectionEntry = defineAsyncComponent(() => import('../../shared/components/
 const AboutItem = defineAsyncComponent(() => import('./AboutItem.vue'));
 const TimelineItem = defineAsyncComponent(() => import('./TimelineItem.vue'));
 const SkillsItem = defineAsyncComponent(() => import('./SkillsItem.vue'));
+const TestimonialsItem = defineAsyncComponent(() => import('./TestimonialsItem.vue'));
 </script>
 
 
 <template>
     <section class="about__container">
         <SectionEntry>
-            <!-- <template #title></template> -->
             <template #content>
                 <AboutItem/>
             </template>
@@ -26,6 +26,12 @@ const SkillsItem = defineAsyncComponent(() => import('./SkillsItem.vue'));
             <template #title>Mis habilidades</template>
             <template #content>
                 <SkillsItem/>
+            </template>
+        </SectionEntry>
+        <SectionEntry>
+            <template #title>Testimonios</template>
+            <template #content>
+                <TestimonialsItem/>
             </template>
         </SectionEntry>
     </section>

@@ -16,6 +16,10 @@
     gap: 3.2rem;
     width: 100%;
     padding: 0 1.6rem;
+    overflow-x: auto;
+}
+.section__item::-webkit-scrollbar {
+    display: none;
 }
 .section__title {
     color: var(--color-heading);

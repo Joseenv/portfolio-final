@@ -62,6 +62,7 @@ const showSoftSkills = () => {
     align-items: center;
     gap: 8px;
     cursor: pointer;
+    z-index: 0;
 }
 .active {
     color: var(--color-subtitle);

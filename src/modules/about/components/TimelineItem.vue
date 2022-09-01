@@ -1,6 +1,6 @@
 <script setup>
 import { defineAsyncComponent } from 'vue';
-import { useEntries } from '../composables/useEntries.js';
+import { useEntries } from '../composables/timeline.js';
 const TimelineEntry = defineAsyncComponent(() => import('../../shared/components/TimelineEntry.vue'));
 
 const { entries } = useEntries();

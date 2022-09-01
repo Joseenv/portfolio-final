@@ -1,10 +1,10 @@
 <template>
-    <article class="about__item__container">
+    <section class="about__item__container">
         <img src="@/assets/img/about-img.webp" alt="" class="about__img">
         <p class="about__description">
             ¡Encantado! Soy Jose Navarro, un apasionado con el mundo de la creatividad, el Desarrollo Frontend y el Diseño UX/UI. Me gustan las experiencias retadoras y estar en constante aprendizaje.
         </p>
-    </article>
+    </section>
 </template>
 
 <style scoped>

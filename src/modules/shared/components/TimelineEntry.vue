@@ -20,7 +20,7 @@
     padding: 2.4rem 1.6rem;
     background-color: var(--color-background-soft);
     border-radius: 8px;
-    box-shadow: 0 4px 64px rgba(19, 23, 61, 0.08);
+    box-shadow: 0 4px 24px rgba(19, 23, 61, 0.08);
     
 }
 .item__container:last-child{
