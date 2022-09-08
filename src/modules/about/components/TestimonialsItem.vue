@@ -32,7 +32,7 @@ const { testimonials } = useTestimonials();
     background-color: var(--color-background-soft);
     border-radius: .8rem;
     width: 28rem;
-    height: 30rem;
+    height: 34rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +46,7 @@ const { testimonials } = useTestimonials();
     border-radius: 50%;
 }
 .testimony__content {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 18px;
     text-align: justify;
 }

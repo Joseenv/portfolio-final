@@ -1,6 +1,6 @@
 <script setup>
 import { ref, defineAsyncComponent } from 'vue';
-import TechnicalsSkills from './TechnicalsSkills.vue';
+import TechnicalSkills from './TechnicalSkills.vue';
 const SoftSkills = defineAsyncComponent(() => import('./SoftSkills.vue'));
 
 const classTech = ref('menu__item active');
@@ -33,7 +33,7 @@ const showSoftSkills = () => {
                 </li>
             </ul>
         </nav>
-        <TechnicalsSkills v-if="isActive"></TechnicalsSkills>
+        <TechnicalSkills v-if="isActive"></TechnicalSkills>
         <SoftSkills v-else></SoftSkills>
     </section>
 </template>
