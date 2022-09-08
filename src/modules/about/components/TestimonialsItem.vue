@@ -46,7 +46,7 @@ const { testimonials } = useTestimonials();
     border-radius: 50%;
 }
 .testimony__content {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 18px;
     text-align: justify;
 }
